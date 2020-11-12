@@ -3,7 +3,7 @@
 ## Para el servidor
 - cd server/
 - npm install
-- node server.js
+- node app.js
 
 ## Para el cliente
 - cd client/
