@@ -1,0 +1,63 @@
+.GraphContainer{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.91);
+    border-bottom: 1px outset rgba(128, 128, 128, 0.255);
+}
+
+.textContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.textContainer  >p {
+    width: 40% !important; 
+    margin-right: 0px;
+    margin-top: 10px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.leftPagraph {
+    margin: 0px;
+    margin-right: 50px;
+}
+
+.rightPagraph{
+    margin: 0px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.percentage{
+    margin-right: 10px;
+}
+
+.donutContainer{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 720px) {
+    .GraphContainer{
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 10px;
+        margin: 10px auto
+    }
+
+    .MainContainer {
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: center;
+        align-items: center;
+    }
+}

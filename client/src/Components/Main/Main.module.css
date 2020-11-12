@@ -1,0 +1,19 @@
+.MainContainer {
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media(max-width: 720px) {
+  .MainContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+}
